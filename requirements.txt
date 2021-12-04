@@ -1,8 +1,9 @@
-Pygments==2.2.0
+Pygments==2.7.4
 argparse==1.4.0
 cssselect==1.0.3
-lxml==4.2.5
+lxml==4.6.3
 pyquery==1.4.0
 requests==2.20.1
 cachelib==0.1
 appdirs==1.4.3
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
